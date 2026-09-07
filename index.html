@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Arcade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="marquee">
+    <div class="marquee-inner">
+      <h1>THE ARCADE</h1>
+      <p class="tagline">A lineup of games, built one cabinet at a time.</p>
+    </div>
+  </header>
+
+  <main class="floor" id="floor">
+    <!-- Game cards are injected here by games.js -->
+  </main>
+
+  <footer class="floor-note">
+    <p>Adding a new game? Drop its folder in <code>/games</code> and list it in <code>games.js</code> — see <code>README.md</code>.</p>
+  </footer>
+
+  <script src="games.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
